@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="589ea795-0a92-4c4c-acf9-508ec182eafe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screebshot_ProdRegCreated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdInstanceCreated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdInstance_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdInstance_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdInstance_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdInstance_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdInstance_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdInstance_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdReg_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdReg_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_ProdReg_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_tests.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/controllers/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/controllers/SException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/dto/ProdInsAddPropsVIPDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/dto/ProdInsAgreeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/dto/ProdInsResponseDataDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/dto/ProdRegResponseDataDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/dto/ProductInsResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/dto/ProductInstanceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/dto/ProductRegResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/entities/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/entities/AccountPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/entities/Agreement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/entities/ProductClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/entities/ProductRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/entities/ProductRegisterType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/mappers/Mappable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/mappers/ProdInsDtoToProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/mappers/ProdRegRequestToProdRegEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/repositories/AccountPoolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/repositories/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/repositories/AgreementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/repositories/ProductClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/repositories/ProductRegisterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/repositories/ProductRegisterTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/services/PRCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/services/ProductCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/services/ProductInstanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodinstance/ProdInsStepsPart1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodinstance/ProdInsStepsPart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodinstance/Step1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodinstance/Step1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodinstance/Step1_3_1_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodinstance/Step2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodinstance/Step2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodinstance/Step2_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodregistr/ProdRegStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodregistr/Step1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodregistr/Step2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stepup/homework/hw5/steps/prodregistr/Step3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stepup/homework/hw5/IntegrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2fGssItLRl0nv4G8WsuLBEo46he" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/ko90/IdeaProjects/HW5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stepup.homework.hw5.Main" />
+      <module name="HW5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW5-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/HW5-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HW5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.stepup.homework.hw5.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="Docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="HW5" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Docker.Docker-compose.yaml: Compose Deployment" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="JAR Application.HW5-1.0-SNAPSHOT.jar" />
+      <item itemvalue="Spring Boot.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="JAR Application.HW5-1.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="589ea795-0a92-4c4c-acf9-508ec182eafe" name="Changes" comment="" />
+      <created>1713438955802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713438955802</updated>
+      <workItem from="1713438956952" duration="114329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

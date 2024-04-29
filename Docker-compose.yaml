@@ -1,0 +1,28 @@
+version: '1.0'
+services:
+  java_web_service:
+    container_name: java_web_service
+    image: hw5-app:1.0
+    environment:
+      - DATABASE_URL=jdbc://java_service_db:5432/hw5
+      - DATABASE_USERNAME=admin
+      - DATABASE_PASSWORD=root
+    ports:
+      - 8080:8080
+    depends_on:
+      - java_service_db
+
+  java_service_db:
+    container_name: java_service_db
+    image: postgres:16.2-alpine3.19
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: admin
+      POSTGRES_DB: hw5
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata: {}
